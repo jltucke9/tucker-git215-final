@@ -1,0 +1,38 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}:root{--med-blue:#4184BF;--lt-blue:#8BB4D9;--lt-green:#B9BF04;--med-green:#A0A603;--dk-green:#667302;--off-white:#F2F2F2;--lt-grey:#D7D7D9;--med-grey:#666A73;--dk-grey:#3C3D40;--body-fonts:'Playfair','Merriweather',serif}
+body{background:var(--lt-blue)url(images/white-diamond-pattern.png);font-family:var(--body-fonts);color:var(--dk-grey);width:100%;line-height:1.5;margin:0 auto}
+header{background-image:url("images/swiss-valley.jpg");background-repeat:no-repeat;margin:0 auto;background-size:cover;width:1440px;height:400px;display:flex;flex-direction:column;align-items:center}
+h2{font-size:2.25rem;font-weight:bold}
+h1>a{font-size:3.5rem;color:var(--dk-grey);text-decoration:none;font-weight:bold;font-variant:small-caps;font-weight:900}.navbar{display:flex;justify-content:space-between;align-items:start;margin:0}.navbar ul{display:flex;gap:1rem;list-style:none;padding:0;margin:0}.navbar a{padding:1rem;color:var(--dk-grey);font-weight:bold;font-size:1.1rem}.navbar a.active{border-bottom:2px dashed var(--dk-green)}.navbar a:hover,.navbar a:focus{color:var(--med-blue);text-decoration:underline}
+main{max-width:1200px;margin:0 auto;padding:2rem 1rem}
+#home-content>h2{font-size:2.25rem;font-weight:bold;text-align:center}
+#home-content>p{font-size:1rem;text-align:center;max-width:800px;margin:0 auto}
+#grp-content{display:grid;grid-template-columns:1fr 1fr;gap:2rem;padding:2rem 0}
+#grp-content section{text-align:center;background-color:var(--off-white);padding:1rem;border-radius:1rem;box-shadow:0 0 8px var(--dk-grey)}
+#grp-content img{max-width:100%;height:auto;border-radius:1rem;box-shadow:0 0 8px var(--dk-grey)}
+#grp-content h3{font-size:1.75rem;margin:1rem 0;color:var(--dk-grey)}.contact{display:flex;justify-content:center;gap:3rem}
+#contact-content{width:350px}
+#contact-content img{max-width:100%;height:auto;border-radius:1rem;box-shadow:0 0 8px var(--dk-grey)}
+#contact-content p{max-width:65ch;padding-bottom:1rem;padding-top:0.5rem}
+form{width:350px;background-color:var(--off-white);padding:1.5rem;border-radius:1rem;font-weight:bold;height:575px;box-shadow:0 0 8px var(--dk-grey)}
+label,input,textarea,select{width:20.5rem;border-radius:0.5rem}
+input,select,textarea{padding:10px;font-size:1.1rem;height:2rem;margin-bottom:20px;border:1px inset var(--dk-green)}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--lt-blue);background-color:var(--off-white)}
+input:invalid,textarea:invalid,select:invalid{border:2px solid var(--med-blue);background-color:white}
+input[type="radio" i]{background-color:initial;cursor:pointer;margin:3px 3px 1px 5px}
+select{appearance:none;height:46px;font-style:normal;font-weight:normal;color:var(--dk-green)}
+form input[type="radio"]{width:auto;margin-right:0.5rem;margin-left:0}
+fieldset{border:1px solid var(--dk-green);padding:1rem;margin-bottom:1rem;border-radius:0.5rem;display:flex;align-items:center;gap:1rem}
+fieldset label{width:100%}
+legend{font-weight:bold}
+fieldset label{display:inline-block;margin-right:1.5rem}
+#my-submit{background-color:var(--dk-green);border:none;color:var(--off-white);font-size:18px;font-weight:bold;padding:1rem 2rem 2rem;width:100%;border-radius:6px;cursor:pointer}
+#my-submit:hover,#my-submit:focus{background-color:var(--lt-green);color:var(--dk-grey);box-shadow:0 0 8px var(--dk-grey)}
+input:invalid,select:invalid,textarea:invalid{border:2px solid var(--med-blue)}
+input:focus,select:focus,textarea:focus{outline:1px solid var(--lt-blue)}
+footer{text-align:center}

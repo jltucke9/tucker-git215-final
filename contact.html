@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Paradise Point | Contact</title>
+        <meta name="author" content="Jeanne Tucker">
+        <meta name="description" content="Paradise Point Swiss Resort nestled in a beautiful valley in the Swiss Alps.">
+    
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Paradise Point</a></h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accommodations.html">Accommodations</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="contact">
+                <section id="contact-content">
+                        <h2>Contact Us</h2>
+                        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                        <img src="images/swiss-peak.jpg" alt="river-valley, with trees and mountain in background" width="350" height="455">
+                    </section>
+                    <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                    <label for="my-name">Full Name (first and last)<span class="required">*</span></label>
+                    <input type="text" name="my-name" id="my-name" required>
+                    <label for="my-email">Email<span class="required">*</span></label>
+                    <input type="text" name="my-email" id="my-email" required>
+                    <label for="my-phone">Phone<span class="required">*</span></label>
+                    <input type="text" name="my-phone" id="my-phone" required>
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span class="required">*</span></legend>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                        <label for="pref-email">Email</label>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                                    
+                    </fieldset>
+                    <label for="comments">Comments<span class="required">*</span></label>
+                    <textarea name="comments" id="comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 - Paradise Point</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+    </html>
